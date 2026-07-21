@@ -1,0 +1,27 @@
+{
+    "version": "0.1.3",
+    "description": "Kick-ass command-line interface for the PlanSolve optimization API.",
+    "homepage": "https://getplansolve.com",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/plansolve/distro/releases/download/rust/v0.1.3/plansolve-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "75fb163a879aa8619bc1ab776b3c14d07f563e4185a0e25a8c3bf21602e8f99e",
+            "bin": "plansolve.exe"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/plansolve/distro",
+        "regex": "rust/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/plansolve/distro/releases/download/rust/v$version/plansolve-cli-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
