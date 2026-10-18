@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/plansolve/distro/releases/download/rust/v0.37.0/plansolve-cli-x86_64-pc-windows-msvc.zip",
-            "hash": "764778f85e99fa0182103297e7df251eef60fc49d058ab921696d361d3fcd262",
+            "hash": "7ca96e525764ceecee076ea17a2b6e432e853303ffa5247842ffc7a9344ef577",
             "bin": "plansolve.exe"
         }
     },
